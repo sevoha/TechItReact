@@ -1,0 +1,114 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Seva Koval",
+      "email": "seva@gmail.com",
+      "password": "12345678",
+      "isAdmin": true
+    },
+    {
+      "name": "seva1",
+      "email": "seva1@gmail.com",
+      "password": "12345678",
+      "isAdmin": false,
+      "id": 2
+    }
+  ],
+  "products": [
+    {
+      "name": "Lenovo Legion 15.6 Gaming",
+      "price": 4231,
+      "category": "Laptops",
+      "description": "Lenovo Legion 5 pairs unparalleled flexibility with incredible power, offering a plethora of performance options for any gamer in a clean and minimalist design",
+      "image": "./image/lenovo.jpg",
+      "id": 1
+    },
+    {
+      "name": "ASUS ROG GL552VW-DH71",
+      "price": 5301,
+      "category": "Laptops",
+      "description": "Offering a formidable core experience for serious gaming and multitasking on Windows 10 Pro",
+      "image": "./image/asus.jpg",
+      "id": 2
+    },
+    {
+      "name": "ASUS TUF GL552VW-DH71",
+      "price": 5300,
+      "category": "Laptops",
+      "description": "Offering a formidable core experience for serious gaming and multitasking on Windows 10 Pr",
+      "image": "./image/assusTuf.png",
+      "quantity": 5,
+      "id": 3
+    },
+    {
+      "name": "Lenovo Legion 15.6 Gaming",
+      "price": 4228,
+      "category": "Laptops",
+      "description": "Lenovo Legion 5 pairs unparalleled flexibility with incredible power, offering a plethora of performance options for any gamer in a clean and minimalist design",
+      "image": "./image/lenovo2.jpg",
+      "quantity": 5,
+      "id": 4
+    },
+    {
+      "id": 5,
+      "name": "Microsoft Headphones",
+      "price": 200,
+      "category": "Headphones",
+      "description": "The Microsoft new headphones with high quality",
+      "image": "./image/Microsoft_Headphones.png",
+      "quantity": 2
+    }
+  ],
+  "cart": [
+    {
+      "userId": 1,
+      "id": 1,
+      "active": true,
+      "products": [
+        {
+          "name": "Lenovo Legion 15.6 Gaming",
+          "price": 4228,
+          "category": "Laptops",
+          "description": "Lenovo Legion 5 pairs unparalleled flexibility with incredible power, offering a plethora of performance options for any gamer in a clean and minimalist design",
+          "image": "./image/lenovo2.jpg",
+          "quantity": 5,
+          "id": 4
+        },
+        {
+          "id": 5,
+          "name": "Microsoft Headphones",
+          "price": 200,
+          "category": "Headphones",
+          "description": "The Microsoft new headphones with high quality",
+          "image": "./image/Microsoft_Headphones.png",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "userId": 2,
+      "products": [
+        {
+          "name": "Lenovo Legion 15.6 Gaming",
+          "price": 4230,
+          "category": "Laptops",
+          "description": "Lenovo Legion 5 pairs unparalleled flexibility with incredible power, offering a plethora of performance options for any gamer in a clean and minimalist design",
+          "image": "./image/lenovo.jpg",
+          "id": 1
+        },
+        {
+          "id": 5,
+          "name": "Microsoft Headphones",
+          "price": 200,
+          "category": "Headphones",
+          "description": "The Microsoft new headphones with high quality",
+          "image": "./image/Microsoft_Headphones.png",
+          "quantity": 2
+        }
+      ],
+      "active": true,
+      "id": 2
+    }
+  ]
+}
